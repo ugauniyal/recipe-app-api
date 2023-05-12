@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Recipe App API</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="{% url 'api-docs' %}" class="w3-bar-item w3-button">Recipe App API</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="https://github.com/ugauniyal" class="w3-bar-item w3-button">Github</a>
+    </div>
+  </div>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+
+    <div class="w3-padding-large">
+      <h1 class="w3-center">About</h1><br>
+      <h4 class="w3-center">A Recipe App API</h5>
+
+      <p class="w3-large">The Recipe App API project using <span class="w3-tag w3-light-grey">Django</span> is a web application that provides users with the ability to search for and save their favorite recipes.
+        The application uses the <span class="w3-tag w3-light-grey">Django Rest Framework</span> to provide a RESTful API that allows users to interact with the application's database of recipes.
+
+        <h5 class="w3-center">Features</h5>
+        <p class="w3-large w3-text-grey w3-hide-medium">- User authentication and authorization using Django's Token based authentication system.</p>
+        <p class="w3-large w3-text-grey w3-hide-medium">- CRUD (Create, Read, Update, Delete) functionality for recipes, allowing users to add, view, update, and delete recipes from the database.</p>
+        <p class="w3-large w3-text-grey w3-hide-medium">- Search functionality that allows users to search for recipes by title or ingredient.</p>
+        <p class="w3-large w3-text-grey w3-hide-medium">- Filtering functionality to improve the user experience.</p>
+        <p class="w3-large w3-text-grey w3-hide-medium">- Unit tests to ensure the functionality of the application.</p>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Menu Section -->
+
+
+  <hr>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Made By Utkarsh Gauniyal</p>
+</footer>
+
+</body>
+</html>
